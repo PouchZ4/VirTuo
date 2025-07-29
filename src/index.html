@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>AlviHasan Portfolio</title>
+    <!-- Flowbite CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <!-- Output CSS -->
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="bg-[#010A10]">
+
+        <!-- header -->
+        <header>
+            <!-- Navigation -->
+            <div class="bg-transparent absolute top-0 w-full z-100">
+                <div class="container mx-auto flex justify-between items-center p-4">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="../assets/img/white-logo.webp" alt="Logo">
+                        </a>
+                    </div>
+
+                    <!-- For Mobile Devices Start -->
+                    <div class="lg:hidden">
+                    <!-- drawer init and show -->
+                        <div class="text-center">
+                        <button class="focus:outline-none" type="button" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation" aria-controls="drawer-navigation">
+                        <i data-feather="menu" class="menu-icon text-[#139bfd] hover:text-white transition-all duration-500"></i>
+                        </button>
+                        </div>
+
+                        <!-- drawer component -->
+                        <div id="drawer-navigation" class="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform duration-700 ease-in-out -translate-x-full bg-[#06131B] w-80" tabindex="-1" aria-labelledby="drawer-navigation-label">
+                            <div class="flex items-center justify-between mt-4 py-2">
+                                    <!-- logo -->
+                                    <div id="drawer-navigation-label" class="text-base font-semibold text-gray-500 uppercase">
+                                        <a href="./index.html">
+                                            <img src="../assets/img/white-logo.webp" alt="Logo">
+                                        </a>
+                                    </div>
+                                    <button type="button" data-drawer-hide="drawer-navigation" aria-controls="drawer-navigation" class="text-white bg-gray-950 hover:bg-[#139BFD] rounded-full text-sm w-8 h-8 inline-flex items-center justify-center transition-all duration-500">
+                                        <i class="menu-icon" data-feather="x" style="width: 16px; height: 16px;"></i>
+                                    </button>
+                            </div>
+                            <!-- nav links -->
+                            <div class="py-4 overflow-y-auto">
+                                <ul class="space-y-2 font-medium">
+                                    
+                                    <li class="border-t border-gray-700/50">
+                                        <a href="#" class="flex items-center p-2 text-white hover:bg-[#139bfd] transition-all duration-500">
+                                        Home
+                                        </a>
+                                    </li>
+
+                                    <li class="border-t border-gray-700/50">
+                                        <a href="#" class="flex items-center p-2 text-white hover:bg-[#139bfd] transition-all duration-500">
+                                        Services
+                                        </a>
+                                    </li>
+
+                                    <li class="border-t border-gray-700/50">
+                                        <a href="#" class="flex items-center p-2 text-white hover:bg-[#139bfd] transition-all duration-500">
+                                        About
+                                        </a>
+                                    </li>
+
+                                    <li class="border-t border-gray-700/50">
+                                        <a href="#" class="flex items-center p-2 text-white hover:bg-[#139bfd] transition-all duration-500">
+                                        Resume
+                                        </a>
+                                    </li>
+
+                                    <li class="border-t border-gray-700/50">
+                                        <a href="#" class="flex items-center p-2 text-white hover:bg-[#139bfd] transition-all duration-500">
+                                        Portfolio
+                                        </a>
+                                    </li>
+
+                                    <li class="border-t border-gray-700/50">
+                                        <a href="#" class="flex items-center p-2 text-white hover:bg-[#139bfd] transition-all duration-500">
+                                        Pricing
+                                        </a>
+                                    </li>
+
+                                    <li class="border-t border-gray-700/50">
+                                        <a href="#" class="flex items-center p-2 text-white hover:bg-[#139bfd] transition-all duration-500">
+                                        Contact
+                                        </a>
+                                    </li>
+
+                                    <li class="border-t border-gray-700/50">
+                                        <a href="#" class="flex items-center p-2 text-white hover:bg-[#139bfd] transition-all duration-500">
+                                        Blog
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Social links -->
+                            <div class="mt-4">
+                                <h2 class="text-white text-lg  mb-4 uppercase">find with me</h2>
+                                <ul class="flex space-x-2 mt-4">
+                                    <li>
+                                        <a href="#" class="text-white bg-gray-900 hover:bg-[#139bfd] w-10 h-10 flex items-center justify-center rounded-full transition-all ease-in-out duration-500">
+                                        <i data-feather="facebook" style="width: 16px; height: 16px;"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white bg-gray-900 hover:bg-[#139bfd] w-10 h-10 flex items-center justify-center rounded-full transition-all ease-in-out duration-500">
+                                        <i data-feather="twitter" style="width: 16px; height: 16px;"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white bg-gray-900 hover:bg-[#139bfd] w-10 h-10 flex items-center justify-center rounded-full transition-all ease-in-out duration-500">
+                                        <i data-feather="instagram" style="width: 16px; height: 16px;"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white bg-gray-900 hover:bg-[#139bfd] w-10 h-10 flex items-center justify-center rounded-full transition-all ease-in-out duration-500">
+                                        <i data-feather="linkedin" style="width: 16px; height: 16px;"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- For Mobile Devices End -->
+
+                    <!-- For Desktop Devices Start -->
+                    <div class="hidden lg:flex items-center space-x-4">
+                        <a href="#" class="active text-white px-4 py-2 rounded transition-all duration-500 ease-in-out">Home</a>
+                        <a href="#" class="text-white hover:bg-[#139bfd]/10 hover:text-[#139bfd] font-semibold px-4 py-2 rounded transition-all ease-in-out duration-500">Services</a>
+                        <a href="#" class="text-white hover:bg-[#139bfd]/10 hover:text-[#139bfd] font-semibold px-4 py-2 rounded transition-all duration-500">About</a>
+                        <a href="#" class="text-white hover:bg-[#139bfd]/10 hover:text-[#139bfd] font-semibold px-4 py-2 rounded transition-all duration-500">Resume</a>
+                        <a href="#" class="text-white hover:bg-[#139bfd]/10 hover:text-[#139bfd] font-semibold px-4 py-2 rounded transition-all duration-500">Portfolio</a>
+                        <a href="#" class="text-white hover:bg-[#139bfd]/10 hover:text-[#139bfd] font-semibold px-4 py-2 rounded transition-all duration-500">Pricing</a>
+                        <a href="#" class="text-white hover:bg-[#139bfd]/10 hover:text-[#139bfd] font-semibold px-4 py-2 rounded transition-all duration-500">Contact</a>
+                        <a href="#" class="text-white hover:bg-[#139bfd]/10 hover:text-[#139bfd] font-semibold px-4 py-2 rounded transition-all duration-500">Blog</a>
+                    </div>
+                    <!-- For Desktop Devices End -->
+
+                    <!-- Social links -->
+                    <div class="hidden lg:flex items-center space-x-2">
+                        <a href="#" class="text-white bg-gray-900/10 hover:bg-[#139bfd] w-10 h-10 flex items-center justify-center rounded-full transition-all ease-in-out duration-500">
+                            <i data-feather="facebook" style="width: 16px; height: 16px;"></i>
+                        </a>
+                        <a href="#" class="text-white bg-gray-900/10 hover:bg-[#139bfd] w-10 h-10 flex items-center justify-center rounded-full transition-all ease-in-out duration-500">
+                            <i data-feather="twitter" style="width: 16px; height: 16px;"></i>
+                        </a>
+                        <a href="#" class="text-white bg-gray-900/10 hover:bg-[#139bfd] w-10 h-10 flex items-center justify-center rounded-full transition-all ease-in-out duration-500">
+                            <i data-feather="instagram" style="width: 16px; height: 16px;"></i>
+                        </a>
+                        <a href="#" class="text-white bg-gray-900/10 hover:bg-[#139bfd] w-10 h-10 flex items-center justify-center rounded-full transition-all ease-in-out duration-500">
+                            <i data-feather="linkedin" style="width: 16px; height: 16px;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Navigation -->
+
+             <!-- banner Section Start -->
+              <div class="banner add-pattern">
+                <div class="container mx-auto px-4">
+                    <div class="banner-wrapper flex flex-col-reverse lg:flex-row items-center justify-between gap-8">
+                        <!-- Banner Content -->
+                        <div class="banner-content flex-1">
+                            <span class="text-2xl md:text-3xl lg:text-4xl font-light text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-red-500">Hello,</span>
+                            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-4"> I'm Alvi Hasan <br>
+                                A
+                                <span id="typewriter" class="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-red-500"></span>
+                            </h1>
+                            <p class="text-lg md:text-xl lg:text-2xl text-gray-300 mt-5">A passionate web developer with a knack for creating stunning and functional websites.</p>
+                            <!-- Button -->
+                            <div class="button-area-banner-one tmp-scroll-trigger tmp-fade-in animation-order-4  relative z-10 mt-8">
+                                <a class="tmp-btn hover-icon-reverse btn-border btn-md tmp-modern-button radius-round download-icon  capitalize decoration-none outline-none relative z-10 inline-block bg-transparent text-gray-500 text-sm font-semibold py-2 px-4 border border-gray-500 rounded-full transition-all ease-in-out duration-500 overflow-hidden" href="javascript:void(0)">
+                                    <div class="icon-reverse-wrapper flex items-center justify-center">
+                                        <span class="btn-text  inline-block ms-[-23px] transition-transform duration-[600ms] delay-[125ms] [transition-timing-function:cubic-bezier(0.1,0.75,0.25,1)]">View Portfolio</span>
+                                        <div class="btn-hack  pointer-events-none flex justify-center items-center absolute inset-0 z-10 rounded-[inherit] p-[2px]" style="
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0) padding-box;
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+  "></div>
+                                        <img src="../assets/img/btg-bg-1.webp" alt="" class="btn-bg pointer-events-none absolute inset-0 w-full h-full transition-all duration-300 ease-in-out z-[-1] rounded-[inherit] object-cover outline-[2px] outline-black shadow-[0_0_10px_rgba(0,0,0,0.5)]">
+                                        <img src="../assets/img/btg-bg-2.webp" alt="" class="btn-bg-hover  pointer-events-none absolute inset-0 w-full h-full opacity-0 transition-all duration-300 ease-in-out z-[-1] rounded-[inherit] object-cover  outline-[2px] outline-black shadow-[0_0_10px_rgba(0,0,0,0.5)]">
+                                        <span class="btn-icon"><i data-icon="arrow-right"></i></span>
+                                        <span class="btn-icon"><i data-icon="arrow-right"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+
+
+
+                        </div>
+                        <!-- Banner Image -->
+                        <div class="banner-image flex-1 flex justify-center">
+                            <img src="../assets/img/banner-user-image-one.webp" alt="Banner Image" class="max-w-[260px] lg:max-w-[400px] w-full h-auto">
+                            <h2 class="text-5xl lg:text-7xl font-extrabold text-white absolute top-[30%] z-[-1] uppercase up-down">Web Developer</h2>
+                            <h3 class="text-5xl lg:text-7xl font-extrabold absolute bottom-[40%] lg:bottom-[20%] uppercase up-down stroke-text">Web Designer</h3>
+                        </div>
+                    </div>
+                    <!-- lights and stars -->
+                     <div class="lights absolute top-0 right-[10%] lg:right-[3%] min-w-[300px] lg:max-w-[600px] z-[-2] lg:h-full object-cover transform-[scaleX(-1)]">
+                        <img src="../assets/img/light.webp" alt="Hero Banner Light" class="w-full h-full object-cover">
+                     </div>
+                    <div class="absolute right-[10%] top-[30px] z-[-1]">
+                        <div class="relative h-[600px] w-[300px] overflow-hidden">
+                            <div class="blocksync-stars absolute inset-0"></div>
+                            <div class="blocksync-stars2 absolute inset-0"></div>
+                            <div class="blocksync-stars3 absolute inset-0"></div>
+                        </div>
+                    </div>
+
+                </div>
+              </div>
+             <!-- banner Section End -->
+        </header>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+
+    <!-- js -->
+    <script src="./main.js"></script>
+
+
+
+
+
+
+
+<!-- https://inversweb.com/product/html/virtuo/index-02.html -->
+
+
+
+
+
+
+
+</body>
+</html>
