@@ -40,7 +40,28 @@ const texts = ["Web Designer.", "Web Developer.", "UI/UX Designer.", "Freelancer
 
   document.addEventListener("DOMContentLoaded", type);
 
+// Progress bar animation
+  document.addEventListener("DOMContentLoaded", () => {
+    const progressBars = document.querySelectorAll(".progress-bar");
 
+    progressBars.forEach((bar) => {
+      const percent = parseInt(bar.getAttribute("data-percent"), 10);
+      let width = 0;
+
+      const interval = setInterval(() => {
+        if (width >= percent) {
+          clearInterval(interval);
+        } else {
+          width++;
+          bar.style.width = width + "%";
+
+          // Update text if available
+          const textSpan = document.getElementById(bar.id.replace("-bar", "-percent"));
+          if (textSpan) textSpan.innerText = width + "%";
+        }
+      }, 15); // Adjust speed here (smaller = faster)
+    });
+  });
 
 
 
