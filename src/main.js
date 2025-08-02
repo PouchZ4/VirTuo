@@ -2,7 +2,7 @@
 // This script creates a typewriter effect for a set of texts with a gradient color animation using Tailwind CSS.
 // It cycles through the texts, typing them out one letter at a time, and deletes them before moving to the next one.
 // The text is styled with a gradient using Tailwind's utility classes.
-const texts = ["Web Designer.", "Web Developer.", "UI/UX Designer.", "Freelancer.", "Content Writer.", "Tech Enthusiast."];
+const texts = ["Web Designer.", "Web Developer.", "UI/UX Designer.", "Freelancer.", "Content Writer.", "Tech Enthusiast.", "SEO Expert.", "Digital Marketer.", "Software Engineer.", "Creative Thinker.", "Problem Solver.", "Innovative Mind.", "Tech Innovator.", "Full Stack Developer.", "Data Scientist.", "Cloud Architect.", "Cybersecurity Specialist.", "Mobile App Developer.", "Game Developer.", "Blockchain Developer.", "AI/ML Engineer.", "DevOps Engineer.", "Systems Analyst.", "Network Administrator.", "Database Administrator.", "IT Consultant.", "Technical Writer.", "Project Manager.", "Business Analyst.", "Product Manager."];
   let count = 0;
   let index = 0;
   let currentText = '';
