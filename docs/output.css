@@ -432,6 +432,9 @@
   .w-3 {
     width: calc(var(--spacing) * 3);
   }
+  .w-3\/5 {
+    width: calc(3/5 * 100%);
+  }
   .w-8 {
     width: calc(var(--spacing) * 8);
   }
