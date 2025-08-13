@@ -1,5 +1,7 @@
 @import "tailwindcss";
-
+html{
+  scroll-behavior: smooth;
+}
 /* Custom styles */
 .active{
     color: #139bfd;
